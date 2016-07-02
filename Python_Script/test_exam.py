@@ -11,11 +11,12 @@ def printNValuesInList(inputList,n):
 
     for i in range(n-m*len(inputList)):
         print(inputList[i])
+        print("")
 
 
 
 if __name__ == '__main__':
-    
+
     lst = ['A','B','C','D']
     n = 150000
     printNValuesInList(lst,n)
